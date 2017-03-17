@@ -1,0 +1,108 @@
+
+div img {
+	border-color: rgba(000, 000, 000, 0.3);
+	border-style: solid;
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+}
+
+.contact{
+	border-color: rgba(000, 000, 000, 0.3);
+	border-radius: 5px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin:auto;
+	width: 600px;
+	height: 480px;
+	display:block;
+	text-align: justify;
+}
+
+.cv1 {
+	text-align: justify;
+	font-size: 15px;
+	display:block;
+	background-color: white;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+} 
+
+.experience {
+	border-color: rgba(000, 000, 000, 0.3);
+	border-radius: 5px;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin:auto;
+	width: 600px;
+	height: 460px;
+	display: block;
+	text-align: justify;
+}
+
+.contact p {
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.experience p {
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.pcskills {
+	border-color: rgba(000, 000, 000, 0.3);
+	border-radius: 5px;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin:auto;
+	width: 600px;
+	height: 310px;
+	display:block;
+	text-align: justify;
+}
+
+.skills {
+	border-color: rgba(000, 000, 000, 0.3);
+	border-radius: 5px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin:auto;
+	width: 600px;
+	height: 300px;
+	display:block;
+	text-align: justify;
+}
+
+.courses {
+	border-color: rgba(000, 000, 000, 0.3);
+	border-radius: 5px;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin:auto;
+	width: 600px;
+	height: 200px;
+	display:block;
+	text-align: justify;
+}
+
+.education {
+	border-color: rgba(000, 000, 000, 0.3);
+	border-radius: 5px;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin:auto;
+	width: 600px;
+	height: 200px;
+	display:block;
+	text-align: justify;
+}
+
+h3 {
+	text-align: center;
+}

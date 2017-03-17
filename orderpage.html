@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Man BOX</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/order.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link rel="shortcut icon" href="https://d3rnbxvnd0hlox.cloudfront.net/images/channels/1380041935/icons/on_color_large.png" />
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><h1>Man BOX</h1></a>
+		</div>
+		<div class="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="orderpage.html">Order Here</a>
+				</li>
+				<li>
+					<a href="about.html">About Me</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<form action="action_page.php" method="post">
+		<fieldset>
+			<legend>Personal Information</legend>
+				<div>
+					<img src="images/rms-logo.svg">
+				</div>
+		<br>
+		<br>
+		First name: <br>
+			<input type="text" name="firstname" value="" required>*
+		<br>
+		<br>
+		Surname: <br>
+			<input type="text" name="surname" value="" required>*
+		<br>
+		<br>
+		E-mail address: <br>
+			<input type="email" name="email" value="" required>*
+		<br>
+		<br>
+		Address: <br>
+			<input type="text" name="address" value="" required>*
+		<br>
+		<br>
+			<input type="text" name="address" value="">
+		<br>
+		<br>
+			<input type="text" name="address" value="">
+		<br>
+		<br>
+			Leave a comment below:<br>
+			<textarea name="message" rows="10" cols="50">
+			</textarea>
+		<br>
+		<br>
+		What is your gender? <br>
+		    <input type="radio" name="gender" value="male" checked> Male<br>
+  			<input type="radio" name="gender" value="female"> Female<br>
+  			<input type="radio" name="gender" value="Donotwishtoanswer."> Do not wish to answer
+  		<br>
+  		</fieldset>
+  		<br>
+  		<br>
+  			(All fields with * sign must be entered)
+  		<br>
+  		<br>
+  			<fieldset>
+  				<legend>Choose your package</legend>
+  				<br>
+  				<br>
+		  		<select name="package" required>
+		  			<option value="9.99">Box for 9.99 EUR / Value of 59.99 EUR</option>
+		  			<option value="15,99">Box for 15.99 EUR / Value of 79.99 EUR</option>
+		  			<option value="17.99">Box for 17.99 EUR / Value of 89.99 EUR</option>
+		  			<option value="19.99">Box for 19.99 EUR / Value of 99.99 EUR</option>
+				</select>*
+				<br>
+				<br>
+				<br>
+				 <input type="checkbox" name="accept" value="Accept" required> To continue you must accept our rules. Please tick the box to continue<br>
+				<br>
+				<input type="submit" value="ORDER">
+				<br>
+				<br>
+  				<br>
+			</fieldset>
+	</form>
+</body>
+</html>
